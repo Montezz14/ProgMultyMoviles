@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="16dp"
+    android:background="#e0e0e0">
+
+    <!-- Fila 1: 4 botones -->
+    <TableRow>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+    </TableRow>
+
+    <!-- Fila 2: 2 botones grandes -->
+    <TableRow>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_span="2" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_span="2" android:text="" android:background="#ffcc99" />
+    </TableRow>
+
+    <!-- Fila 3: 4 botones -->
+    <TableRow>
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="" android:background="#ffcc99" />
+    </TableRow>
+
+</TableLayout>

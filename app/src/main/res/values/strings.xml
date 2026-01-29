@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InterfazUsuarioTema4</string>
+    <string name="left_top">LEFT | TOP</string>
+    <string name="center_horizontal_top">CENTER_HORIZONTAL | TOP</string>
+    <string name="right_top">RIGHT | TOP</string>
+    <string name="center_vertical_left">CENTER_VERTICAL | LEFT</string>
+    <string name="center">CENTER</string>
+    <string name="center_vertical_right">CENTER_VERTICAL | RIGHT</string>
+    <string name="left_bottom">LEFT | BOTTOM</string>
+    <string name="center_horizontal_bottom">CENTER_HORIZONTAL | BOTTOM</string>
+    <string name="right_bottom">RIGHT | BOTTOM</string>
+</resources>

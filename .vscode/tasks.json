@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Android app",
+			"type": "shell",
+			"command": "./gradlew assembleDebug",
+			"args": [],
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

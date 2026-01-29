@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Cuadrícula 3x3 de FrameLayouts -->
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <!-- Fila 1 -->
+        <FrameLayout
+            android:id="@+id/fl_top_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFE082">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/left_top"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_top_center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFF9C4">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/center_horizontal_top"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_top_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFE082">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/right_top"/>
+        </FrameLayout>
+
+        <!-- Fila 2 -->
+        <FrameLayout
+            android:id="@+id/fl_middle_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFF9C4">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/center_vertical_left"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFECB3">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/center"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_middle_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFF9C4">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/center_vertical_right"/>
+        </FrameLayout>
+
+        <!-- Fila 3 -->
+        <FrameLayout
+            android:id="@+id/fl_bottom_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFE082">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/left_bottom"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_bottom_center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFF9C4">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/center_horizontal_bottom"/>
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/fl_bottom_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFE082">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/right_bottom"/>
+        </FrameLayout>
+
+    </GridLayout>
+
+</FrameLayout>
